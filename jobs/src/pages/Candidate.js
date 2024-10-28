@@ -77,7 +77,7 @@ export default function Candidate() {
                     <div className="col-md-8">
                     
                         <div className="account-details">
-                        <form className="job-post-from" onSubmit={handleSubmit}>
+                        <form className="job-post-from" onSubmit={handleSubmit} encType="multipart/form-data" method="post">
                     <h2>Fill Up Your information</h2>
                     <div className="row">
                     <div className="col-md-6">
@@ -179,14 +179,14 @@ export default function Candidate() {
                                 <label>Attach your Resume here</label>
                                 <input type="file" className="form-control" id="exampleInput3" name="resume" onChange={handleChange} required/>
                             </div>
-                        </div>
+                        </div>*/}
 
                         <div className="col-md-12">
                             <div className="form-group">
                                 <label>Attach your Photo here</label>
                                 <input type="file" className="form-control" id="exampleInput3" name="image" onChange={handleChange} required/>
                             </div>
-                        </div> */}
+                        </div> 
 
                         <div className="col-md-12 text-center">
                             <button type="submit" name="submit" className="post-btn">

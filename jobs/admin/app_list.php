@@ -20,7 +20,7 @@ $experience= $user->experience;
 $skills= $user->skills;
 $address= $user->address;
 $about= $user->about;
-$photo=$user->photo;
+$photo=$user->image;
 
             $conn->query("INSERT INTO applicant (fname,lname,gender,birth,education,email,contact,experience,skill,address,about,photo) VALUES('$fname','$lname','$gender','$b_date','$education','$email','$contact','$experience','$skills','$address','$about','$photo')");
 
