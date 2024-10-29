@@ -31,7 +31,7 @@ export default function SignIn() {
             if (result.data.Status === '200') { 
                 window.localStorage.setItem('email', result.data.email);
                 window.localStorage.setItem('userName', (result.data.first_name+ ' ' +result.data.first_name ));  
-                navigate(`/home`);
+				navigate(`/dashboard`);
             }
         else  {
            //props.history.push('/Dashboard')  

@@ -17,6 +17,7 @@ import SignUp from './pages/SignUp';
 import JobList from './pages/JobList';
 import JobDetails from './pages/JobDetails';
 import Candidate from './pages/Candidate';
+import NoPage from './pages/NoPage';
 
 
 function App() {
@@ -39,7 +40,8 @@ function App() {
           <Route path='/sign-up' element={<SignUp/> }></Route>              
           <Route path='/job-list' element={<JobList/> }></Route>
           <Route path='/job-details' element={<JobDetails/> }></Route>    
-          <Route path='/candidate' element={<Candidate/> }></Route>   
+          <Route path='/candidate' element={<Candidate/> }></Route> 
+          <Route path='*' element={<NoPage/> }></Route>  
         </Route>
       </Routes>
   </BrowserRouter>

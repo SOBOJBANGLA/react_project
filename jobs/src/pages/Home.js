@@ -82,7 +82,7 @@ export default function Home() {
                         <div className="category-card">
                             <i className='flaticon-accounting'></i>
                             <h3>Accountancy</h3>
-                            <p>301 open position</p>
+                            <p>21 open position</p>
                         </div>
                     </Link>
                 </div>
@@ -92,7 +92,7 @@ export default function Home() {
                         <div className="category-card">
                             <i className='flaticon-graduation-cap'></i>
                             <h3>Education</h3>
-                            <p>210 open position</p>
+                            <p>10 open position</p>
                         </div>
                     </Link>
                 </div>
@@ -102,7 +102,7 @@ export default function Home() {
                         <div className="category-card">
                             <i className='flaticon-wrench-and-screwdriver-in-cross'></i>
                             <h3>Automotive Jobs</h3>
-                            <p>281 open position</p>
+                            <p>28 open position</p>
                         </div>
                     </Link>
                 </div>
@@ -112,7 +112,7 @@ export default function Home() {
                         <div className="category-card">
                             <i className='flaticon-consultation'></i>
                             <h3>Business</h3>
-                            <p>122 open position</p>
+                            <p>22 open position</p>
                         </div>
                     </Link>
                 </div>
@@ -122,7 +122,7 @@ export default function Home() {
                         <div className="category-card">
                             <i className='flaticon-heart'></i>
                             <h3>Health Care</h3>
-                            <p>335 open position</p>
+                            <p>33 open position</p>
                         </div>
                     </Link>
                 </div>
@@ -132,7 +132,7 @@ export default function Home() {
                         <div className="category-card">
                             <i className='flaticon-computer'></i>
                             <h3>IT & Agency</h3>
-                            <p>401 open position</p>
+                            <p>41 open position</p>
                         </div>
                     </Link>
                 </div>
@@ -142,7 +142,7 @@ export default function Home() {
                         <div className="category-card">
                             <i className='flaticon-worker'></i>
                             <h3>Engineering</h3>
-                            <p>100 open position</p>
+                            <p>10 open position</p>
                         </div>
                     </Link>
                 </div>
@@ -152,7 +152,7 @@ export default function Home() {
                         <div className="category-card">
                             <i className='flaticon-auction'></i>
                             <h3>Legal</h3>
-                            <p>201 open position</p>
+                            <p>21 open position</p>
                         </div>
                     </Link>
                 </div>

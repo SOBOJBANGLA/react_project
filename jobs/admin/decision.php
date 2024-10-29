@@ -104,7 +104,7 @@ require('connection.php');
                             if (isset($_POST['submit'])) {
                                 extract($_POST);
 
-                                $sq = "UPDATE applicant SET title='$title',company_name='$company_name',fname='$fname',lname='$lname',gender='$gender',education='$education',email='$email',contact='$contact',address='$address',status='$status' WHERE id='$id'";
+                                $sq = "UPDATE applicant SET fname='$fname',lname='$lname',gender='$gender',education='$education',email='$email',contact='$contact',address='$address',status='$status' WHERE id='$id'";
 
                                 $update = mysqli_query($conn, $sq);
 
@@ -167,16 +167,16 @@ require('connection.php');
                   <form class="job-post-from" method="post" >
                     <h2>Applicant information</h2>
                     <div class="row">
-                    <div class="col-md-6">
+                    <!-- <div class="col-md-6">
                     <label>Apply for:</label>
-                    <input type="text" class="form-control" name="title" id="exampleInput1" value="<?php echo $row['title'] ?>">
+                    <input type="text" class="form-control" name="title" id="exampleInput1" value="<?php //echo $row['title'] ?>">
                         </div>
                         
                         <div class="col-md-6">
                         <label>Company Name</label>
-                        <input type="text" class="form-control" name="company_name" id="exampleInput1" value="<?php echo $row['company_name'] ?>">
+                        <input type="text" class="form-control" name="company_name" id="exampleInput1" value="<?php //echo $row['company_name'] ?>">
                        
-                        </div>
+                        </div> -->
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label>First Name</label>

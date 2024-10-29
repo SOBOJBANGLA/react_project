@@ -141,9 +141,9 @@ if (!empty($user_first_name) && !empty($user_last_name)) {
                     <table id="datatable-buttons" class="table table-striped table-bordered dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
                       <thead>
                         <tr style="text-align:center">
-                            <th>Image</th>
-                          <th>Job title</th>
-                          <th>Company name</th>
+                            <!-- <th>Image</th>-->
+                          <!-- <th>Job title</th>
+                          <th>Company name</th>  -->
                           <th>First Name</th>
                           <th>Last Name</th>
                           <th>Gender</th>
@@ -164,9 +164,9 @@ if (!empty($user_first_name) && !empty($user_last_name)) {
                         <?php while ($data = $query->fetch_object()) { ?>
 
                           <tr style="text-align:center">
-                          <td><?php echo "<img src='../$data->photo' style='height:60px;width: 80px'> ";?></td>
-                            <td><?php echo $data->title  ?></td>
-                            <td><?php echo $data->company_name  ?></td>
+                          <!-- <td><?php //echo "<img src='../$data->photo' style='height:60px;width: 80px'> ";?></td>-->
+                            <!-- <td><?php //echo $data->title  ?></td>
+                            <td><?php //echo $data->company_name  ?></td>  -->
                             <td><?php echo $data->fname  ?></td>
                             <td> <?php echo $data->lname  ?></td>
                             <td> <?php echo $data->gender  ?></td>

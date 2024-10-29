@@ -55,7 +55,7 @@ export default function Catagories() {
 						<div className="category-card">
 							<i className='flaticon-accounting'></i>
 							<h3>{user.name}</h3>
-							<p>301 open position</p>
+							<p>1 open position</p>
 						</div>
 						</Link>
 					</div>

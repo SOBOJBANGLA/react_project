@@ -14,9 +14,9 @@ $email = $user->email;
 $password = $user->password;
 
 
-
+if($name!="" && $email!="" && $password!=""){
             $conn->query("INSERT INTO user1(fname,email,password)VALUES('$name','$email','$password') ");
-
+}
             if($conn->affected_rows)echo "Inserted";
 
 ?>

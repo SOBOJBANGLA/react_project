@@ -43,20 +43,20 @@ export default function JobList() {
                                 <div className="col-md-8">
                                     <div className="job-info">
                                         <h3>
-                                            <Link to="/job-details">Web Designer, Graphic Designer, UI/UX Designer</Link>
+                                            <Link to="/job-details">Junior oficer</Link>
                                         </h3>
                                         <ul>                                          
                                             <li>
                                                 <i className='bx bx-briefcase' ></i>
-                                                Graphics Designer
+                                                Accountancy
                                             </li>
                                             <li>
                                                 <i className='bx bx-briefcase' ></i>
-                                                $35000-$38000
+                                                35000-38000
                                             </li>
                                             <li>
                                                 <i className='bx bx-location-plus'></i>
-                                                Wellesley Rd, London
+                                                Dhaka, Bangaldesh
                                             </li>
                                             <li>
                                                 <i className='bx bx-stopwatch' ></i>

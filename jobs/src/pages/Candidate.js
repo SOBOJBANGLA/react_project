@@ -49,7 +49,7 @@ export default function Candidate() {
                         <div className="account-information">
                             <div className="profile-thumb">
                                 
-                                <h3>Name:</h3>
+                                {/* <h3>Name:</h3> */}
                                
                             </div>
 
@@ -81,11 +81,11 @@ export default function Candidate() {
                     <h2>Fill Up Your information</h2>
                     <div className="row">
                     <div className="col-md-6">
-                 <p name="">  <b>Apply for :</b> </p>
+                    <b>  Apply for :</b> <p name="title" onChange={handleChange}>Junior officer </p>
                         </div>
                         
                         <div className="col-md-6">
-                        <p name=""> <b>Company Name : </b> </p>
+                        <b>Company Name : </b> <p name="company_name" onChange={handleChange}> Square LTD</p>
                         </div>
                         <div className="col-md-6">
                             <div className="form-group">
@@ -179,14 +179,14 @@ export default function Candidate() {
                                 <label>Attach your Resume here</label>
                                 <input type="file" className="form-control" id="exampleInput3" name="resume" onChange={handleChange} required/>
                             </div>
-                        </div>*/}
+                        </div>
 
                         <div className="col-md-12">
                             <div className="form-group">
                                 <label>Attach your Photo here</label>
                                 <input type="file" className="form-control" id="exampleInput3" name="image" onChange={handleChange} required/>
                             </div>
-                        </div> 
+                        </div>*/} 
 
                         <div className="col-md-12 text-center">
                             <button type="submit" name="submit" className="post-btn">

@@ -38,11 +38,11 @@ export default function JobDetails() {
                                            
                                             <div className="col-md-10">
                                                 <div className="job-info">
-                                                    <h3>Web Designer, Graphic Designer, UI/UX Designer</h3>
+                                                    <h3>Junior oficer</h3>
                                                     <ul>
                                                         <li>
                                                             <i className='bx bx-location-plus'></i>
-                                                            Wellesley Rd, London
+                                                            Dhaka, Bangaldesh
                                                         </li>
                                                         <li>
                                                             <i className='bx bx-filter-alt' ></i>
@@ -107,11 +107,11 @@ export default function JobDetails() {
                                                     <tbody>
                                                         <tr>
                                                             <td><span>Company</span></td>
-                                                            <td>Tourt Design LTD</td>
+                                                            <td>Square LTD</td>
                                                         </tr>
                                                         <tr>
                                                             <td><span>Location</span></td>
-                                                            <td>Wellesley Rd, London</td>
+                                                            <td>Dhaka, Bangladesh</td>
                                                         </tr>
                                                         <tr>
                                                             <td><span>Job Type</span></td>
@@ -137,7 +137,7 @@ export default function JobDetails() {
                                                         </tr>
                                                         <tr>
                                                             <td><span>Salary</span></td>
-                                                            <td>$10,000</td>
+                                                            <td>10,000</td>
                                                         </tr>
                                                         <tr>
                                                             <td><span>Website</span></td>

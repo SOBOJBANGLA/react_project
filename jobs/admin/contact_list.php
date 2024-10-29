@@ -15,8 +15,9 @@ $phone = $user->number;
 $sub= $user->subject;
 $msz= $user->message;
 
-
+if($name!="" && $email!="" && $phone!="" && $sub!="" && $msz!="" ){
             $conn->query("INSERT INTO contact(name,email,number,subject,massage)VALUES('$name','$email','$phone','$sub','$msz') ");
+}
 
             if($conn->affected_rows)echo "Inserted";
 
