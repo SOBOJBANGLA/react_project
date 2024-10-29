@@ -19,6 +19,6 @@ if($name!="" && $email!="" && $phone!="" && $sub!="" && $msz!="" ){
             $conn->query("INSERT INTO contact(name,email,number,subject,massage)VALUES('$name','$email','$phone','$sub','$msz') ");
 }
 
-            if($conn->affected_rows)echo "Inserted";
+            if($conn->affected_rows)echo "Your message has sent been successfully";
 
 ?>

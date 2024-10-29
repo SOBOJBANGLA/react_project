@@ -15,7 +15,7 @@ export default function Candidate() {
         event.preventDefault();
         //console.log(inputs);
         axios.post('http://localhost/react_project/jobs/admin/app_list.php/', inputs).then(function(response){
-            console.log(response.data);
+            alert(response.data);
         })
     }
 

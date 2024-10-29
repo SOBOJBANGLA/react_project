@@ -30,6 +30,6 @@ if($fname!="" && $lname!="" && $lname!="" && $gender!="" && $b_date!="" && $educ
 }
             
 
-            if($conn->affected_rows)echo "Inserted";
+            if($conn->affected_rows)echo "Your message has sent been successfully";
 
 ?>
